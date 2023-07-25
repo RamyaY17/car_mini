@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background: linear-gradient(120deg, rgba(91, 17, 102, 0.79), rgb(255, 192, 192));
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 500px;
+    height: 700px;
+    background-color: rgba(16, 15, 25, 0.895);
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controls{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(151, 110, 125);
+    padding: 15px;
+}
+.buttonCar{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border: none;
+    color: transparent;
+    border: 1px solid black;
+}
+.buttoncar .yellow{
+}
+#spanCar{
+    width: 32px;
+    height: 15px;
+    padding: 0px 5px 0px 5px;
+    background-color: red;
+    font-weight: 800;
+    color: white;
+    border-radius: 3px;
+}
+.list{
+    padding-right: 25px;
+    font-size: 15px;
+    font-weight: 800;
+    color: rgb(223, 217, 217);
+
+}
+.addToCart{
+    margin: 25px;
+    width: 70%;
+    height: 7vh;
+    background-color: rgb(18, 2, 2);
+    color: rgb(235, 223, 223);
+    border-radius: 18px;
+    border: none;
+    font-size: large;
+    font-weight: 800;
+}
+.addToCart:hover{
+    background-color: gray;
+    color: white;
+    transition: .7s;
+}
+#yellow:hover{
+    background-color: rgb(6, 11, 16)!important;
+    transition: .7s;
+}
+#red:hover{
+    background-color: rgb(43, 21, 238)!important;
+    transition: .7s;
+}
+#black:hover{
+    background-color: rgb(0, 0, 0)!important;
+    transition: .7s;
+}
+
