@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Carcart.css">
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="image">
+                <img src="https://stimg.cardekho.com/images/car-images/large/Mini/Cooper-Convertible/8096/1603086736867/221_blue_054b6f.jpg?impolicy=resize&imwidth=420" id="img">
+            </div>
+            <div class="controls">
+                <p id="spanCar">car</p>
+                <h1 style="padding: 10px; font-size: 28px; color: rgb(183, 20, 20); font-weight: 900;">MINICOOPER.</h1>
+                <p class="list">🚗 Mileage: 4000m</p><br>
+                <p class="list">⛽ Fuel: 25mpg</p><br>
+                <p class="list">Rating: ⭐⭐⭐⭐⭐</p><br>
+                <p class="list">Price: $309,899</p>
+                <br>
+                <h3 style="color: white; font-weight: 900;">Pick a Color</h3><br>
+                <button onclick="yellow()" id="yellow" class="buttonCar" style="background-color: rgb(199, 222, 22);">yellow</button>
+                <button onclick="red()" id="red" class="buttonCar" style="background-color: rgb(247, 76, 105);">red</button>
+                <button onclick="black()" id="black" class="buttonCar" style="background-color: rgb(9, 12, 32);">black</button>
+                <br>
+                <br>
+                <button class="AddToCart">Proceed to checkout</button>
+            </div>
+        </div>
+    </section>
+    <script>
+        yellow = () => document.getElementById("img").setAttribute("src", "https://www.farmmodels.nl//Files/3/9000/9786/ProductPhotos/Source/680353840.jpg")
+        red = () => document.getElementById("img").setAttribute("src", "https://i.pinimg.com/736x/4c/a9/5a/4ca95a192082b13f1536a9ec986fa839.jpg")
+        black = () => document.getElementById("img").setAttribute("src", "https://i2-prod.dailyrecord.co.uk/incoming/article21992256.ece/ALTERNATES/s615/0_JS211457249.jpg")
+    </script>
+</body>
+</html>
